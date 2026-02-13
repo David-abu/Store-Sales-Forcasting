@@ -23,12 +23,12 @@ api.authenticate()
 api.competition_download_files('store-sales-time-series-forecasting', path='./data')
 Key Tasks:
 
-Load and explore the store sales data
-Aggregate sales by product family (one level of hierarchy) or use overall sales
-Create time series at daily/weekly level
-Forecast 1-month ahead (30 days) sales using ARIMA, ETS, Prophet models
-Handle seasonalities (weekly, monthly, yearly patterns)
-Compare different forecasting models using MAE, RMSE, MAPE
-Provide forecast visualizations and confidence intervals
+1. Load and explore the store sales data
+2. Aggregate sales by product family (one level of hierarchy) or use overall sales
+3. Create time series at daily/weekly level
+4. Forecast 1-month ahead (30 days) sales using ARIMA, ETS, Prophet models
+5. Handle seasonalities (weekly, monthly, yearly patterns)
+6. Compare different forecasting models using MAE, RMSE, MAPE
+7. Provide forecast visualizations and confidence intervals
 Note: You can forecast by product family (e.g., GROCERY I, BEVERAGES, etc.) or aggregate to total sales - choose one approach
 Forecast Horizon: 1 month (30 days) ahead
